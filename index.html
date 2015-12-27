@@ -50,7 +50,7 @@
 
 								<div class="form-group">
 									<label for="fromSel">From</label>
-									<input type="hidden" name="fromSel" id="fromSel" class="form-control">
+									<input type="hidden" name="fromSel" autofocus="" id="fromSel" class="form-control">
 								</div>
 
 								<div class="form-group">
@@ -64,7 +64,7 @@
 										<span class="input-group-btn">
 											<a class="btn btn-default" id="decrement"> <i class="fa fa-minus"></i> </a>
 										</span>
-										<input type="text" name="steps" id="steps" class="form-control" value="1">
+										<input type="text" name="steps" onkeydown="if (event.keyCode == 13) document.getElementById('find_connection').click()" id="steps" class="form-control" value="1">
 										<span class="input-group-btn">
 											<a class="btn btn-default" id="increment"> <i class="fa fa-plus"></i> </a>
 										</span>
