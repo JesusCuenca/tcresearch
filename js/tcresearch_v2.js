@@ -234,7 +234,7 @@ var tcresearch = {
 		$aspectsList
 			.after($searchInfo);
 
-		self.c.$searchResults.append($searchResult);
+		self.c.$searchResults.prepend($searchResult);
 		$searchResult.animate({
 			'margin-top': 0,
 			opacity: 1
