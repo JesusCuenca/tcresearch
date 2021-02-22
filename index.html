@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
 	<script type="text/javascript" src="js/select2.min.js"></script>
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="css/select2.css">
 	<script type="text/javascript" src="js/translation_dictionary.js"></script>
 	<script type="text/javascript" src="js/version_dictionary.js"></script>
@@ -50,7 +50,7 @@
 
 								<div class="form-group">
 									<label for="fromSel">From</label>
-									<input type="hidden" name="fromSel" id="fromSel" class="form-control">
+									<input type="hidden" name="fromSel" autofocus="" id="fromSel" class="form-control">
 								</div>
 
 								<div class="form-group">
@@ -64,7 +64,7 @@
 										<span class="input-group-btn">
 											<a class="btn btn-default" id="decrement"> <i class="fa fa-minus"></i> </a>
 										</span>
-										<input type="text" name="steps" id="steps" class="form-control" value="1">
+										<input type="number" name="steps" id="steps" class="form-control" value="1">
 										<span class="input-group-btn">
 											<a class="btn btn-default" id="increment"> <i class="fa fa-plus"></i> </a>
 										</span>
@@ -72,7 +72,7 @@
 								</div>
 
 								<div class="form-group">
-									<a class="btn btn-block btn-primary" id="find_connection">Go!</a>
+									<input type="submit" class="btn btn-block btn-primary" id="find_connection" value="Go!">
 								</div>
 
 							</form>
@@ -179,7 +179,7 @@
 		</div>
 	</div>
 	
-	<script type="text/javascript" src="js/tcresearch_v2.js"></script>
+	<script type="text/javascript" src="js/tcresearch.js"></script>
 	
 </body>
 </html>

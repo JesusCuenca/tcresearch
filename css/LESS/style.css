@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,600,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,400');
 /**
  * Thaumcraft 4 Research Helper Styles.
  *
@@ -18,7 +18,7 @@
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 62.5%;
-  background-image: url('../zwartevilt.png');
+  background-image: url('../background.png');
   background-repeat: repeat;
   background-attachment: fixed;
   color: #fff;
@@ -91,7 +91,7 @@ h2 {
 #combination-box-wrapper #combination-box {
   display: none;
   padding: 10px 0;
-  background-image: url('../zwartevilt.png');
+  background-image: url('../background.png');
   background-repeat: repeat;
   background-attachment: fixed;
   border-style: solid;
