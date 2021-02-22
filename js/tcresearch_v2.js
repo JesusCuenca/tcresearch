@@ -48,7 +48,7 @@ var tcresearch = {
 		toggleAddon:  '<label class="btn btn-default"><input type="checkbox" class="addon_toggle" /><span></span></label>'
 	},
 
-	// Add an unidirectional conection between two aspects in the graph
+	// Add an unidirectional connection between two aspects in the graph
 	addConnection: function (from, to) {
 		if ( ! (from in this.graph) )
 			this.graph[from] = [];
@@ -349,7 +349,7 @@ var tcresearch = {
 		self.c.$version.val(self.version);
 	},
 
-	whatchForViewChanges: function () {
+	watchForViewChanges: function () {
 		var self = this;
 		
 		$('#find_connection').on('click', function (e) {
@@ -534,7 +534,7 @@ var tcresearch = {
 
 	init: function () {
 		this.setVersions();
-		this.whatchForViewChanges();
+		this.watchForViewChanges();
 
 		this.resetAspects();
 	}
