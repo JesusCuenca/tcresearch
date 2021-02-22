@@ -1,4 +1,4 @@
-.aspectlist {
+.aspectList {
 	list-style:none;
 	padding:0;
 	overflow:scroll;
@@ -6,7 +6,7 @@
 	display:block;
 	width:650px;
 }
-.aspectlist > li {
+.aspectList > li {
 	display:block;
 	width:145px;
 	float:left;
@@ -21,7 +21,7 @@
 	color:#333;
 	cursor:pointer;
 }
-.aspectlist > li.aspect:hover {
+.aspectList > li.aspect:hover {
 	background:#DDD;
 	color:#000;
 	font-weight:bold;
@@ -69,7 +69,6 @@
 	z-index: 500;
 	background:#d6d6d6;
 	position:absolute;
-	display:table-cell;
 	padding:5px;
 	display:none;
 }
